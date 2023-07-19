@@ -1,0 +1,298 @@
+@font-face{
+    font-family: "Cyberjunkies";
+    src: url("arquivos/Cyberjunkies.otf");
+   }
+
+@font-face{
+       font-family: "digital-7";
+    src: url("arquivos/digital-7.ttf");
+}
+
+@font-face{
+    font-family: "Gemunu Libre Regular";
+ src: url("arquivos/GemunuLibre-Regular.ttf");
+}
+body {
+    font-family: "cyberjunkies";
+    letter-spacing: 4px;
+    background-color: black;
+    background-image: url("arquivos/Background.gif");
+    color: black;
+    background-size: 1152px 648px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 0 ;
+    padding: 0 ;
+}
+
+.borda {
+    position: fixed;
+    top:15px;
+    left: calc(50% - 530px);
+    width: 1152px;
+    height: 648px;
+    align-items: 0 auto;
+}
+
+body.main {
+       background-image: url("arquivos/TelaInicial.gif");
+  
+}
+
+#telaInicial {
+    text-align: center;
+    margin-top: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-dark {
+    color: yellow;
+    letter-spacing: 4px;
+}
+
+.btn-lg{
+    font-size: 30px;
+    padding: 20px 40px;
+    margin-right: 50px;
+} 
+
+.btn-rk {
+    font-size: 15px;
+    padding: 5px 5px;
+    margin-top: 60px;
+    margin-left: 5px;
+        
+}
+
+.botoes {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+}
+
+.cadastro,
+.login {
+    padding: 10px;
+    margin: auto 10px;
+    border: solid black 5px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    float: right;
+    width: 550px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+
+}
+
+.rank {
+    padding: 10px;
+    margin: auto 10px;
+    border: solid black 5px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    width: 300px;
+    position: absolute;
+    overflow: auto;
+}
+.rGeralsemana, .rGeralSempre,
+.rLigaSemana, .rLigaSempre {
+    height: 200px;
+}
+
+.rLigaSemana, .rLigaSempre {
+    margin-left: 700px;
+
+}
+.rGeralsemana, .rGeralSempre {
+    margin-left: 375px;
+}
+.rLigaSempre, .rGeralSempre {
+
+    margin-top: 320px;
+}
+
+
+
+#nome {
+    height: 50px;
+    width: 196px; 
+    position: fixed;
+    top:15px;
+    left: calc(50% - 530px);
+      
+}
+
+.icone {
+    padding: 0px;
+    width: calc(50% - 200px); 
+    margin: auto 0;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.campo {
+    font-family: sans-serif;
+    background-color: #d7d350;
+    margin-left: 30px;
+}
+
+#cadastrar, #login {
+    margin-left: 200px;
+
+}
+#entrada {
+    width: 500px;
+    height: 60px;
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+
+#startButton {
+    width: 250px ;
+    margin-top: 10px;
+    height: 50px;
+    padding-top: 0;
+} 
+
+#timer{
+    color: red;
+    width: 300px;
+    padding-left: 25px;
+    margin-left: 325px;
+    font-size: 70px;
+    font-family: "digital-7";
+    text-align: left;
+}
+.molduraJogo {
+    align-items: center;
+    padding: 10px;
+    margin: auto 36px;
+    border: solid black 5px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    width: 1000px;
+    position: fixed;
+    height: 400px;
+    font-family: "Gemunu Libre Regular";
+    font-size: 25px;
+    background-color: black;
+    color: rgb(87, 243, 63);
+    text-align: center;
+    
+}
+
+#aparece {
+    font-size: 40px;
+}
+
+.explosao {
+ 
+    text-align: center;
+    
+}
+
+#AparecePontFinal {
+    margin-top: 450px;
+    font-size: 50px;
+    color: darkred;
+}
+
+#inp.resultado {
+    display: none;
+  }
+
+  .tabela {
+    font-family: "Gemunu Libre Regular";
+    color: black;
+    font-size: 10px;
+    border-collapse: separate;
+    text-align: center;
+}
+
+.tabela td {
+    border: 1px dotted gray;
+    padding: 10px;
+}
+
+.registrar {
+    font-family: "Gemunu Libre Regular";
+    font-size: 15px;
+    margin-top: 370px;
+    text-align: right;
+    margin-right: 150px;
+}
+
+.bordaFim{
+    display: none;
+}
+
+.historico{
+    float: left;
+    border: solid black 5px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    width: 300px; 
+    padding: 10px;
+    margin-left: 30px;
+    height: 420px;
+
+
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .video-background video {
+    width: 1152px;
+    height: 648px;
+    object-fit: cover;
+  }
+
+  
+.rodape {
+    font-family: "Gemunu Libre Regular";
+    font-size: 15px;
+    clear: both;
+    margin-top: 580px;
+text-align: center;
+}
+
+.cadastro2 {
+    padding: 10px;
+    margin: auto 10px;
+    border: solid black 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    float: right;
+    width: 550px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+
+}
+
+.registrar2 {
+    font-family: "Gemunu Libre Regular";
+    font-size: 15px;
+    margin-top: 280px;
+    text-align: right;
+    margin-right: 150px;
+}
